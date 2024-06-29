@@ -1,0 +1,186 @@
+.signup{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.signup-logo{
+    
+    width: 200px;
+}
+
+.form-layout-container{
+    margin-top: 10px;
+ width: 40%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border-radius: 10px;
+ box-shadow: 0 0 7px 3px rgba(240, 238, 242, 0.711);
+}
+
+.heading-title{
+    margin: 25px 0;
+}
+
+.input-fileds{
+    margin: 10px 0;
+    width: 80%;
+}
+
+.signup-input{
+    width: 100%;
+    padding: 7px 15px;
+    border:none;
+    border-radius: 99999999px;
+    background-color: rgba(240, 238, 242, 0.711);
+    outline-color:  rgb(255, 106, 134);
+}
+
+.radio-label{
+    margin: 0 10px ;
+}
+
+.radio-button{
+ margin:20px;
+}
+
+.sub-heading{
+   
+    width: 90%;
+}
+
+.workstatus{
+    margin: 10px;
+    display: flex;
+    width: 80%;
+}
+.workstatus-left ,.workstatus-right{
+    width: 50%;
+    box-shadow: 0 0 7px 3px rgba(240, 238, 242, 0.711);
+    padding: 10px 20px;
+    position: relative;
+}
+
+.workstatus-left{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.workstatus-right{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.background-gray{
+    background-color: rgba(240, 238, 242, 0.711);
+}
+
+.paragragh-font-size{
+    font-size: 10px;
+    color: rgba(53, 50, 56, 0.711);
+    font-weight: bold;
+}
+.tickmark{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color:  rgb(255, 106, 134);
+    font-family: serif;
+}
+
+.current-city{
+    width: 80%;
+    position: relative;
+
+}
+
+.text-area{
+    position: relative;
+    margin-top: 10px;
+    resize: none;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    background-color: rgba(240, 238, 242, 0.711);
+    box-shadow: 0 0 7px 3px rgba(240, 238, 242, 0.711);
+    border-radius: 15px;
+    padding: 30px 20px 0 20px;
+    outline: none;
+}
+
+.p-title{
+    z-index: 10;
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    background-color: rgba(255, 248, 248, 0.978);
+    font-size: 10px;
+}
+
+.show-data{
+    position: relative;
+    top: -75px;
+    left: 15px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 10px;
+    padding: 0 5px;
+    border-radius: 9px;
+    margin: 3px;
+    color: gray;
+}
+
+.checkbox{
+    margin: 15px;
+    width: 80%;
+    display: flex;
+
+}
+
+.send-update{
+    background-color:  rgb(255, 106, 134);
+    margin-right: 10px;
+}
+
+
+
+.checkbox-caption{
+    font-size: 15px;
+}
+
+.sub-heading-last{
+    width: 80%;
+    margin: 15px;
+}
+.blue{
+    color: rgb(65, 135, 218);
+}
+.text-center-wrap{
+    text-align: center;
+    font-size: 13px;
+}
+
+.submit-button{
+    width: 80%;
+    margin: 15px 0;
+}
+.submit-btn{
+    width: 100%;
+    background-color: rgb(255, 106, 134);
+    color: aliceblue;
+    border-radius: 9999px;
+    padding: 7px;
+    border: none;
+    box-shadow: 0 0 7px 7px rgba(240, 238, 242, 0.771);
+    font-weight: bold;
+}
